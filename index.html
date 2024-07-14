@@ -3,44 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-   
     <div class="Dashboard">
         <div class="sidebar">
             <div class="index">
-                <div><img src="./image/Profile Picture.png">Brooklyn Alice</div>
+                <div><img src="./image/Profile Picture.png"> Brooklyn Alice</div>
                 <hr>
-                <div><i class="fa-solid fa-house"></i> Dashboard<i class="fa-solid fa-chevron-up"></i></div>
-                <div>A Analytics</div>
-                <div>D Discovers</div>
-                <div>S Sales</div>
-                <div>A Automotive</div>
-                <div>S Smart Home</div>
+                <div class="sidebar-item">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="sidebar-text">Dashboard</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">A Analytics</div>
+                <div class="sidebar-item">D Discovers</div>
+                <div class="sidebar-item">S Sales</div>
+                <div class="sidebar-item">A Automotive</div>
+                <div class="sidebar-item">S Smart Home</div>
                 <h3>Pages</h3>
-                <div><i class="fa-regular fa-image"></i>Pages<i class="fa-solid fa-chevron-down"></i></div>
-                <div><i class="fa-solid fa-table-cells"></i>Application<i class="fa-solid fa-chevron-down"></i></div>
-                <div><i class="fa-solid fa-bag-shopping"></i>Ecommerce<i class="fa-solid fa-chevron-down"></i></div>
-                <div><i class="fa-regular fa-clipboard"></i>Authentication<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="sidebar-item">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="sidebar-text">Pages</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fa-solid fa-table-cells"></i>
+                    <div class="sidebar-text">Application</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="sidebar-text">Ecommerce</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fa-regular fa-clipboard"></i>
+                    <div class="sidebar-text">Authentication</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
                 <hr>
                 <h3>Docs</h3>
-                <div><i class="fa-regular fa-note-sticky"></i>Basic<i class="fa-solid fa-chevron-down"></i></div>
-                <div><i class="fa-brands fa-unity"></i>components<i class="fa-solid fa-chevron-down"></i></div>
-                <div><i class="fa-solid fa-newspaper"></i>changelog</div>
-            </div>          
+                <div class="sidebar-item">
+                    <i class="fa-regular fa-note-sticky"></i>
+                    <div class="sidebar-text">Basic</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fa-brands fa-unity"></i>
+                    <div class="sidebar-text">Components</div>
+                    <div class="sidebar-icons">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <div class="sidebar-text">Changelog</div>
+                    <div class="sidebar-icons">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="main-content">
             <nav class="container">
                 <h3>Material Kit 2 PRO</h3>
                 <div class="nav-center">
                     <ul>
-                        <li><a href="#home">Pages</a><i class="fa-solid fa-chevron-down"></i></li>
-                        <li><a href="#contact">Account</a><i class="fa-solid fa-chevron-down"></i></li>
-                        <li><a href="#about">Sections</a><i class="fa-solid fa-chevron-down"></i></li>
-                        <li><a href="#about">Docs</a><i class="fa-solid fa-chevron-down"></i></li>
+                        <li><a href="#home">Pages <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="#contact">Account <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="#about">Sections <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="#about">Docs <i class="fa-solid fa-chevron-down"></i></a></li>
                     </ul>
                 </div>
                 <div class="nav-right">
@@ -53,11 +99,12 @@
                     <p>Aleo</p>
                     <button type="button">Search <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
+                <hr>
             </div>
-            <hr>
+          
             <div class="cards-container">
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
@@ -68,9 +115,8 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
@@ -81,9 +127,8 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
@@ -94,32 +139,34 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="cards-container">
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
                     </div>
                 </div>
-
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
                     </div>
                 </div>
-
                 <div class="card">
-                    <img src="./image/blog card1.png" alt="Card Image">
+                    <img src="./image/blog card1.png" class="card-image">
                     <div class="card-content">
                         <h1>Cozy 5 Stars Apartment</h1>
                         <p>The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.</p>
                     </div>
                 </div>
+            </div>
+          
+               
+               
             </div>
         </div>
     </div>
-</body>
-</html>
+</body
